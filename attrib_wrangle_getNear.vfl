@@ -1,0 +1,23 @@
+int prim = 0;
+vector primuv = {0,0,0};
+int newadata = 0;
+vector newadata1 = {0,0,0};
+int input = 0; 
+
+//replacing
+float dist = xyzdist(input, "", @P, prim, primuv, 10);
+//replacing
+
+
+
+int newadata = prim;
+int addattrib(int geoself(), "sPrim", newadata, "type", "", 1};
+if ("SPRIM" != "") {
+    addvariablename("sPrim", "SPRIM");}
+    
+    int newadata1 = primuv;
+    addattribute("sUV", newadata1, "type", "");
+    if ("SUV" != "") {
+        addvariablename("sUV", "SUV");
+    }
+}
